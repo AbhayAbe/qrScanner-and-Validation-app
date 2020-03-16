@@ -1,0 +1,78 @@
+String instring = "encrypts this message";
+String result = "";
+List finalstring = [];
+
+
+void main() {
+  int i = 0;
+  for (; i<instring.length; i++){
+    switch(instring[i]){
+      case 'a':finalstring.add('z'); break;
+      case 'b':finalstring.add('y'); break;
+      case 'c':finalstring.add('x'); break;
+      case 'd':finalstring.add('w'); break;
+      case 'e':finalstring.add('v'); break;
+      case 'f':finalstring.add('u'); break;
+      case 'g':finalstring.add('t'); break;
+      case 'h':finalstring.add('s'); break;
+      case 'i':finalstring.add('r'); break;
+      case 'j':finalstring.add('q'); break;
+      case 'k':finalstring.add('p'); break;
+      case 'l':finalstring.add('o'); break;
+      case 'm':finalstring.add('n'); break;
+      case 'n':finalstring.add('m'); break;
+      case 'o':finalstring.add('l'); break;
+      case 'p':finalstring.add('k'); break;
+      case 'q':finalstring.add('j'); break;
+      case 'r':finalstring.add('i'); break;
+      case 's':finalstring.add('h'); break;
+      case 't':finalstring.add('g'); break;
+      case 'u':finalstring.add('f'); break;
+      case 'v':finalstring.add('e'); break;
+      case 'w':finalstring.add('d'); break;
+      case 'x':finalstring.add('c'); break;
+      case 'y':finalstring.add('b'); break;
+      case 'z':finalstring.add('a'); break;
+      case 'A':finalstring.add('Z'); break;
+      case 'B':finalstring.add('Y'); break;
+      case 'C':finalstring.add('X'); break;
+      case 'D':finalstring.add('W'); break;
+      case 'E':finalstring.add('V'); break;
+      case 'F':finalstring.add('U'); break;
+      case 'G':finalstring.add('T'); break;
+      case 'H':finalstring.add('S'); break;
+      case 'I':finalstring.add('R'); break;
+      case 'J':finalstring.add('Q'); break;
+      case 'K':finalstring.add('P'); break;
+      case 'L':finalstring.add('O'); break;
+      case 'M':finalstring.add('N'); break;
+      case 'N':finalstring.add('M'); break;
+      case 'O':finalstring.add('L'); break;
+      case 'P':finalstring.add('K'); break;
+      case 'Q':finalstring.add('J'); break;
+      case 'R':finalstring.add('I'); break;
+      case 'S':finalstring.add('H'); break;
+      case 'T':finalstring.add('G'); break;
+      case 'U':finalstring.add('F'); break;
+      case 'V':finalstring.add('E'); break;
+      case 'W':finalstring.add('D'); break;
+      case 'X':finalstring.add('C'); break;
+      case 'Y':finalstring.add('B'); break;
+      case 'Z':finalstring.add('A'); break;
+      case '0':finalstring.add('9'); break;
+      case '1':finalstring.add('8'); break;
+      case '2':finalstring.add('7'); break;
+      case '3':finalstring.add('6'); break;
+      case '4':finalstring.add('5'); break;
+      case '5':finalstring.add('4'); break;
+      case '6':finalstring.add('3'); break;
+      case '7':finalstring.add('2'); break;
+      case '8':finalstring.add('1'); break;
+      case '9':finalstring.add('0'); break;
+      default: finalstring.add(instring[i]); break;    
+    }
+  }
+ 
+  result = finalstring.join();
+  print(result);
+}
